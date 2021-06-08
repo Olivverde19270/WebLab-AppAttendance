@@ -15,14 +15,14 @@ const Assistance = () => {
 
   useEffect(() => {
     collection.onSnapshot((snapshot) => {
-      const allStudents = []
+      const studients = []
       snapshot.forEach((item) => {
         const datos = item.data()
         datos.id = item.id
-        allStudents.push(datos)
+        studients.push(datos)
       })
 
-      setStudents(allStudents)
+      setStudents(studients)
     })
   }, [])
 
