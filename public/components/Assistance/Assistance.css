@@ -1,0 +1,41 @@
+/* ASSISTANCE PAGE */
+.assistance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.assistance h1 {
+  margin-bottom: 0;
+}
+
+.assistance h2 {
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons button {
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 1.2em;
+  margin: 1em 1em 0 1em;
+  font-weight: bold;
+}
+
+.buttons button:not(.add) {
+  background-color: var(--buttons);
+}
+
+
+.logo img{
+  width: 250px;
+  max-width: 100%;
+  padding-bottom: 3em;
+}
+
